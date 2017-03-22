@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Javascript Test</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div class="pink">
+		<div class="btn1" onclick="scrollDown()">
+			Click to scroll down
+		</div>
+	</div>
+
+	<div class="blue">
+		<div class="btn2" onclick="scrollUp()">
+			Click to scroll up
+		</div>
+	</div>
+	<div class="yellow">
+		<div class="show" onclick="showImage()">
+			Show the Image!
+		</div>
+		<div class="hide" onclick="hideImage()">
+			Hide the Image!
+		</div>
+		<div class="fadeIn" onclick="fadeIn()">
+		 Fade the image in
+		 </div>
+		<div class="fadeOut" onclick="fadeOut()">
+			Fade the image out
+		</div>
+		<img id="flower" src="flower.jpg"/>
+	</div>
+	<div class="teal">
+		<p>(7 points). A second issue with the previous algorithm is that it does handle occluded or mismatched regions well. Implement what is called a left-right consistency check. This performs two stereo matchings, from the left image to the right image, and from the right image to the left image, and checks if these are consistent. Check if corresponding disparities differ by more than a threshold number of pixels (I used a threshold of 15). (Hint: if we look up a given pixel (x, y) in the left disparity image, make sure to shift it left appropriately when looking it up in the right disparity image). If so, then label the pixel as mismatched/occluded. Visualize the disparities only for the pixels that are not mismatched/occluded. You should get a visualization such as:</p>
+	</div>
+
+
+</body>

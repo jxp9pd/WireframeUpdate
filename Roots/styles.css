@@ -1,0 +1,92 @@
+body {
+	background-color: #FDF3E7;
+	font-size: 24px;
+	margin: 0px;
+}
+/* background-color is the attribute.
+What follows is the value. */
+ul {
+	list-style: none;
+	text-align: right;
+	margin: 0;
+	padding-top: 10px;
+}
+li {
+	display: inline-block;
+	height: 50px;
+	padding: 0px 10px 0px 10px;
+}
+.navbar {
+	background-color: #C63D0F;
+}
+
+a {
+	color: rgb(235, 129, 68);
+	text-decoration: none;
+}
+/*Applies to both paragraph tags and h1 tags*/
+p, h1{
+	text-align: center;
+	color: #3B3738;
+	font-family: Arial;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.descriptor {
+	text-align: left;
+}
+/*.container {
+	background: url("bambooForest.jpg") no-repeat
+				center fixed; -webkit-background-
+				size: cover; -moz-background-size:
+				cover;-o-background-size: cover;
+				background-size: cover;
+}*/
+
+.about-me {
+	height: 500px;
+	background-color: #3B3738;
+}
+
+.about-header {
+	padding-top: 30px;
+	color: white;
+	margin: 0px;
+}
+
+.div1 {
+	background-color: red;
+	display: inline-block;
+	width: 50%;
+}
+
+.div2 {
+	background-color: blue;
+	display: inline-block;
+	width: 50%;
+}
+
+.div3, .div5 {
+	background-color: pink;
+	width: 33.3333%;
+	display: inline-block;
+}
+.div4 {
+	width: 33.33333%;
+	display: inline-block;
+}
+.divWrapper {
+	width: 500px;
+	margin: 0 auto;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.logo {
+	width: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	display: block;
+	margin: auto;
+}

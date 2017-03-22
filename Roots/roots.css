@@ -1,0 +1,178 @@
+body {
+	margin: 0px;
+	font-family: Arial;
+	color: rgb(235, 129, 68);
+}
+h1 {
+	text-align: center;
+	font-size: 45px;
+}
+li {
+	display: inline-block;
+	height: 50px;
+	width: 20%;
+	text-align: center;
+	padding-top: 10px;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+}
+h3 {
+	text-align: center;
+}
+a {
+	color: rgb(235, 129, 68);
+	text-decoration: none;
+
+}
+.logo {
+	width: 300px;
+	padding-top: 60px;
+	padding-bottom: 20px;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+.navbar {
+	margin-right: 0px;
+	margin-left: 0px;
+/*	Takes the element out of the
+	normal document flow. No longer
+	autosets the width*/
+	position: fixed;
+	width: 100%;
+	background-color: white;
+}
+.wrapper {
+	background-color: black;
+
+}
+.pic-title {
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.5);
+}
+.locationHeader {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+	font-weight: 100;
+	text-align: center;
+}
+.row {
+	margin: auto;
+	padding-bottom: 75px;
+}
+.place {
+	width: 33.333%;
+	display: inline-block;
+}
+
+.location-img {
+	width: 33.33%;
+	display: inline-block;
+	height: 300px;
+	position: relative;
+}
+.img1 {
+	background: url("charlottesville.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.img2 {
+background: url("athens.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.img3 {
+background: url("monaco.jpg") no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+.bigBowl {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+.kitchen {
+	width: 33%;
+	border-radius: 50%;
+}
+.info1 {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.content {
+	margin: 0 auto;
+	width: 50%;
+	padding-left: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+.content2 {
+	margin: 0 auto;
+	width: 50%;
+	padding-right: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+.marketing{
+	font-size: 16px;
+	color: black;
+}
+.menu {
+	height: 900px;
+	background-color: #EB8144;
+	color: white;
+}
+.about-header {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.menuItems {
+	width: 80%;
+	margin: auto;
+}
+.bowl {
+	width: 33.33333%;
+	display: inline-block;
+}
+.spacing{
+	padding-bottom: 30px;
+}
+@media screen and (max-width: 1000px) {
+	.content h3,
+	.content2 h3 {
+		padding-top: 20px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.kitchen {
+		width: 80%;
+	}
+	.marketing {
+		width: 100%;
+	}
+	.marketing p {
+		width: 100%;
+		padding: 0;
+	}
+}
+@media screen and (max-width: 650px) {
+ h1 {
+ 	font-size: 30px;
+ }
+}

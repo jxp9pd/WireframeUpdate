@@ -1,0 +1,93 @@
+body {
+	margin: 0px;
+	font-family: Arial;
+	color: rgb(235, 129, 68);
+}
+h1 {
+	text-align: center;
+}
+li {
+	display: inline-block;
+	height: 50px;
+	width: 20%;
+	text-align: center;
+	padding-top: 10px;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+}
+h3 {
+	text-align: center;
+}
+a {
+	color: rgb(235, 129, 68);
+	text-decoration: none;
+
+}
+.logo {
+	width: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+.navbar {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.bigBowl {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+.kitchen {
+	width: 33%;
+	border-radius: 50%;
+}
+.info1 {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.content {
+	margin: 0 auto;
+	width: 50%;
+	padding-left: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+.content2 {
+	margin: 0 auto;
+	width: 50%;
+	padding-right: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+.marketing{
+	font-size: 16px;
+	color: black;
+}
+.menu {
+	height: 900px;
+	background-color: #EB8144;
+	color: white;
+}
+.about-header {
+	padding-top: 50px;
+}
+.menuItems {
+	width: 80%;
+	margin: auto;
+}
+.bowl {
+	width: 33.33333%;
+	display: inline-block;
+}
+.spacing{
+	padding-bottom: 30px;
+}
+

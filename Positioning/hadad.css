@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+	margin: 0;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	margin-top: 70px;
+	padding-right: 60px;
+}
+.logo {
+	display: inline-block;
+	border-radius: 50%;
+	background-color: white;
+	color: #EED2BC;
+	width: 60px;
+	text-align: center;
+	height: 60px;
+	vertical-align: top;
+	font-family: 'PT Serif', serif;
+	font-weight: 100;
+	margin-top: 50px;
+	margin-left: 50px;
+	line-height: 370%;
+}
+li {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px; 
+	padding-right: 20px;
+	font-weight: 100; 
+}
+h1 {
+	font-family: 'PT Serif', serif; 
+	font-size: 120px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	line-height: 120%;
+}
+h3 {
+	color: white;
+	font-family: Courier;
+}
+.frontPage {
+	background-color: #EED2BC;
+	height: 500px;
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+}
+.text {
+	display: inline-block;
+	padding-right: 100px;
+	position: absolute;
+	bottom: -50px;
+}
+.gigi {
+	display: inline-block;
+	box-shadow: 10px 10px 5px #888888;
+	position: absolute;
+	width: 330px;	
+	bottom: -75px;
+	right: 122px;
+	
+}
+
+.navbar {
+	text-align: right;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
